@@ -1,0 +1,12 @@
+.link {
+	color: rgb(255, 255, 255);
+	padding-left: 0px;
+}
+.link:hover {
+	color: rgb(182, 182, 182);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab:wght@300&display=swap");
+.fontwrap {
+	font-family: "Roboto Slab", serif;
+}
