@@ -1,17 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import "bootstrap/dist/css/bootstrap.min.css";
+import App from "./App";
 
-//Components
-import Navigation from "./components/Navbar";
-import Projects from "./components/Projects";
+//router
+import { render } from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Navigation />
-		<Projects />
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={<App />}></Route>
+			</Routes>
+		</BrowserRouter>
+		,
 	</React.StrictMode>,
 	document.getElementById("root")
 );

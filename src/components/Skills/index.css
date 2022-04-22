@@ -1,0 +1,46 @@
+.skills-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px 50px;
+  margin-bottom: 25px;
+  width: 88%;
+  padding: 20px 60px 20px 60px;
+  background: rgba(49, 49, 49, 0.623);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.356) 0%, rgba(0, 0, 0, 0.35) 100%);
+  box-shadow: inset 3px 3px 3px 3px #000000;
+  border-radius: 7px;
+}
+
+.skills-header{
+    font-family: "Oleo Script Swash Caps",
+    cursive;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+ 
+}
+
+.skills-img{
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 7px 5px 5px #000000,
+  inset 3px 3px 3px 3px #ffffff00;
+  ;
+  padding: 10px;
+
+}
+
+@media screen and (max-width: 800px) {
+  .skills-img {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .skills-container{
+    gap: 10px 20px;
+  }
+}
+
+

@@ -1,0 +1,163 @@
+.project-container {
+	margin: auto;
+	margin-bottom: 25px;
+	width: 88%;
+	padding: 20px 60px 20px 60px;
+	background: rgba(49, 49, 49, 0.623);
+	box-shadow: 7px 5px #000000;
+	border-radius: 7px;
+}
+
+.project-col {
+	padding: 15px;
+	margin: auto;
+}
+
+.project-col-main {
+	padding: 15px;
+	margin: auto;
+}
+
+.particle-container {
+	position: relative;
+	border-radius: 200px;
+	background-color: #ffdcdc94;
+}
+
+.part-cont {
+	position: absolute;
+	top: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.tilt-outer {
+	opacity: 0.8;
+	margin: auto;
+	filter: alpha(opacity=40);
+	transition: 0.3s;
+}
+
+.tilt-outer:hover {
+	transition: 0.3s;
+	opacity: 1;
+
+	filter: alpha(opacity=40);
+	.logo {
+		background-color: rgb(255, 0, 0);
+	}
+	.cloud-icon {
+		color: rgb(0, 53, 88);
+	}
+}
+
+.tilt-scale {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	background-size: contain;
+	color: rgb(0, 0, 0);
+	border-radius: 20px;
+	transform-style: preserve-3d;
+
+	.header-main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 35px;
+		transform: translateZ(200px);
+	}
+
+	.header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 35px;
+		transform: translateZ(60px);
+	}
+
+	.github-marvel {
+		color: rgb(0, 0, 0);
+		background-color: white;
+		border-radius: 100px;
+		padding: 10px;
+		position: absolute;
+		right: 5%;
+		bottom: 10%;
+		transition: 0.3s;
+		transform: translateZ(30px);
+	}
+
+	.github-marvel:hover {
+		color: rgb(255, 0, 0);
+	}
+
+	.github-weather {
+		color: rgb(138, 138, 138);
+		background-color: white;
+		border-radius: 100px;
+		padding: 10px;
+		position: absolute;
+		right: 5%;
+		bottom: 10%;
+		transition: 0.3s;
+		border: 2px solid rgb(255, 255, 255);
+		transform: translateZ(30px);
+	}
+
+	.github-weather:hover {
+		color: rgb(0, 53, 88);
+	}
+}
+
+.logo {
+	font-family: GraublauWeb;
+	color: white;
+	background-color: rgb(0, 0, 0);
+	border-radius: 5px;
+	padding: 5px 5px 0px 5px;
+	transition: 0.3s;
+}
+
+.cloud-icon {
+	color: rgb(255, 255, 255);
+	transition: 0.3s;
+}
+
+@font-face {
+	font-family: GraublauWeb;
+	src: url("../../assets/images/BentonSans\ Comp\ Black\ Regular.otf")
+		format("opentype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+
+.project-header {
+	font-family: "Oleo Script Swash Caps", cursive;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 100px;
+	background-color: #292929;
+	box-shadow: 7px 5px #000000;
+	border-radius: 200px;
+}
+
+.parallax-effect {
+	transform-style: preserve-3d;
+}
+
+@media screen and (max-width: 950px) {
+	.logo {
+		font-size: 25px;
+		transform: translateZ(60px);
+	}
+	.project-header {
+		font-size: 50px;
+	}
+}

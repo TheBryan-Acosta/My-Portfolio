@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import { Nav, Container } from "react-bootstrap";
-import { Instagram, Linkedin, Github } from "react-bootstrap-icons";
+import { Linkedin, Github, Envelope } from "react-bootstrap-icons";
 import "./index.css";
 
 const Navigation = () => {
 	return (
 		<div className="fontwrap">
-			<Navbar bg="dark" expand="lg" variant="dark">
+			<Navbar className="color-nav" expand="lg" variant="dark">
 				<Container fluid>
 					<Navbar.Brand href="#home">Bryan Acosta</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,20 +20,23 @@ const Navigation = () => {
 					</Navbar.Collapse>
 					<Navbar.Collapse className="justify-content-end">
 						<Nav.Link
-							href="https://github.com/TheBryan-Acosta"
+							href="mailto: bryanacostadelacruz@gmail.com"
 							className="link"
+							target="_blank"
 						>
-							<Instagram size={40} />
+							<Envelope size={40} />
 						</Nav.Link>
 						<Nav.Link
 							href="https://www.linkedin.com/in/bryan-acosta-0094b320b/"
 							className="link"
+							target="_blank"
 						>
 							<Linkedin size={40} />
 						</Nav.Link>
 						<Nav.Link
 							href="https://github.com/TheBryan-Acosta"
 							className="link"
+							target="_blank"
 						>
 							<Github size={40} />
 						</Nav.Link>

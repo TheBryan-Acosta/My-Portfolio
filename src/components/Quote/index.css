@@ -1,0 +1,26 @@
+.about-container {
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.about-text {
+	color: rgba(255, 255, 255, 0.493);
+	margin: auto;
+	margin-top: 33%;
+	font-family: "Oleo Script Swash Caps", cursive;
+	font-size: 40px;
+}
+
+.about-text-name {
+	color: rgba(255, 255, 255, 0.479);
+	margin: auto;
+
+	font-family: "Oleo Script Swash Caps", cursive;
+	font-size: 20px;
+}
+
+.about-img {
+	max-width: 100%;
+	margin: auto;
+	margin-top: 40px;
+}
