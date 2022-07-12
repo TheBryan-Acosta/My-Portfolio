@@ -34,9 +34,7 @@ a {
 }
 
 .tilt-outer {
-	opacity: 0.8;
 	margin: auto;
-	filter: alpha(opacity=40);
 	transition: 0.3s;
 }
 
@@ -44,12 +42,20 @@ a {
 	transition: 0.3s;
 	opacity: 1;
 
-	filter: alpha(opacity=40);
 	.logo {
 		background-color: rgb(255, 0, 0);
 	}
 	.cloud-icon {
 		color: rgb(0, 53, 88);
+	}
+	.paper-icon{
+		color: rgb(55, 168, 153);
+	}
+	.moon-icon{
+			color: rgb(185, 171, 255);
+	}
+	.team-icon{
+		color: rgb(255, 169, 169);
 	}
 }
 
@@ -107,7 +113,7 @@ a {
 		right: 5%;
 		bottom: 10%;
 		transition: 0.3s;
-		border: 2px solid rgb(255, 255, 255);
+	border: 2px solid rgb(0, 0, 0);
 		transform: translateZ(30px);
 	}
 
@@ -115,6 +121,62 @@ a {
 		color: rgb(0, 53, 88);
 	}
 }
+
+.github-notewriter {
+	color: rgb(138, 138, 138);
+	background-color: white;
+	border-radius: 100px;
+	padding: 10px;
+	position: absolute;
+	right: 5%;
+	bottom: 10%;
+	transition: 0.3s;
+	border: 2px solid rgb(0, 0, 0);
+	transform: translateZ(30px);
+}
+
+.github-notewriter:hover {
+	color: rgb(55,
+		168,
+		153);
+}
+
+.github-portfolio {
+	color: rgb(138, 138, 138);
+	background-color: rgb(255, 255, 255);
+	border-radius: 100px;
+	padding: 10px;
+	position: absolute;
+	right: 5%;
+	bottom: 10%;
+	transition: 0.3s;
+	border: 2px solid rgb(0, 0, 0);
+	transform: translateZ(30px);
+}
+
+.github-portfolio:hover {
+	color: rgb(185, 171, 255);
+	transition: 1s;
+}
+
+.github-team {
+	color: rgb(138, 138, 138);
+	background-color: rgb(255, 255, 255);
+	border-radius: 100px;
+	padding: 10px;
+	position: absolute;
+	right: 5%;
+	bottom: 10%;
+	transition: 0.3s;
+	border: 2px solid rgb(0, 0, 0);
+	transform: translateZ(30px);
+}
+
+.github-team:hover {
+		color: rgb(255, 169, 169);
+	transition: .3s;
+}
+
 
 .logo {
 	font-family: GraublauWeb;
@@ -128,6 +190,21 @@ a {
 .cloud-icon {
 	color: rgb(255, 255, 255);
 	transition: 0.3s;
+}
+
+.paper-icon {
+	color: rgb(255, 255, 255);
+	transition: 0.3s;
+}
+
+.team-icon {
+	color: rgb(255, 255, 255);
+	transition: 0.3s;
+}
+
+.moon-icon {
+	color: rgb(255, 255, 255);
+	transition: 1s;
 }
 
 @font-face {

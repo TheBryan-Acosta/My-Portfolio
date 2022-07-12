@@ -18,7 +18,7 @@ const Skills = () => {
 	return (
 		<div>
 			<h1 className="skills-header"> My Skills</h1>
-			<Container className="skills-container">
+			<Container className="skills-container" id="skills">
 				<img className="skills-img" src={html} alt="html-pic"></img>
 				<img className="skills-img" src={css} alt="html-pic"></img>
 				<img className="skills-img" src={javascript} alt="html-pic"></img>
