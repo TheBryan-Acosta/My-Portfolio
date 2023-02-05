@@ -46,7 +46,7 @@ const Projects = () => {
 				<Col className="project-col-main">
 					<div className="tilt-outer">
 						<a
-							href="https://marvelous-mern.herokuapp.com/"
+							href="https://marveloushero.herokuapp.com/"
 							target="_blank"
 							rel="noreferrer noopener"
 						>
