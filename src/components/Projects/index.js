@@ -75,7 +75,7 @@ const Projects = () => {
 										<hr />
 									</div>
 									<a
-										href="https://github.com/taylorkeltgen/marvelous"
+										href="https://github.com/TheBryan-Acosta/marvelous"
 										target="_blank"
 										rel="noreferrer noopener"
 									>
@@ -133,7 +133,7 @@ const Projects = () => {
 				<Col className="project-col">
 					<div className="tilt-outer">
 						<a
-							href="https://note-writer-brydev.herokuapp.com/notes/"
+							href="https://note-writer-brydev.herokuapp.com/"
 							target="_blank"
 							rel="noreferrer noopener"
 						>
