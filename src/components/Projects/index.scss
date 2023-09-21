@@ -1,11 +1,32 @@
+:root{
+	--lornhorn: rgb(191, 87, 0);
+}
+
+.utsymbol {
+	height: 100px;
+	position: absolute;
+	left: 5%;
+	bottom: 10%;
+}
 .project-container {
 	margin: auto;
 	margin-bottom: 25px;
 	width: 88%;
 	padding: 20px 60px 20px 60px;
-	background: rgba(49, 49, 49, 0.623);
+	background-image: url('../../assets/projects/white-stone.jpg');
+	background-size: cover;
 	box-shadow: 7px 5px #000000;
 	border-radius: 7px;
+}
+
+.project-header {
+	font-family: "Oleo Script Swash Caps", cursive;
+	text-align: center;
+	background-image: url('../../assets/projects/stars.jpg');
+	color: rgb(255, 255, 255);
+	font-size: 100px;
+	background-color: #292929;
+	border-radius: 200px;
 }
 
 .project-col {
@@ -43,19 +64,19 @@ a {
 	opacity: 1;
 
 	.logo {
-		background-color: rgb(255, 0, 0);
+		background-color: var(--lornhorn);
 	}
 	.cloud-icon {
-		color: rgb(0, 53, 88);
+		color: var(--lornhorn);
 	}
 	.paper-icon{
-		color: rgb(55, 168, 153);
+		color: var(--lornhorn);
 	}
 	.moon-icon{
-			color: rgb(185, 171, 255);
+			color: var(--lornhorn);
 	}
 	.team-icon{
-		color: rgb(255, 169, 169);
+		color: rgbvar(--lornhorn);
 	}
 }
 
@@ -66,8 +87,6 @@ a {
 	align-items: center;
 	height: 300px;
 	background-size: contain;
-	color: rgb(0, 0, 0);
-	border-radius: 20px;
 	transform-style: preserve-3d;
 
 	.header-main {
@@ -101,7 +120,7 @@ a {
 	}
 
 	.github-marvel:hover {
-		color: rgb(255, 0, 0);
+		color: var(--lornhorn);
 	}
 
 	.github-weather {
@@ -118,7 +137,7 @@ a {
 	}
 
 	.github-weather:hover {
-		color: rgb(0, 53, 88);
+		color: var(--lornhorn);
 	}
 }
 
@@ -136,9 +155,7 @@ a {
 }
 
 .github-notewriter:hover {
-	color: rgb(55,
-		168,
-		153);
+	color: var(--lornhorn);
 }
 
 .github-portfolio {
@@ -155,7 +172,7 @@ a {
 }
 
 .github-portfolio:hover {
-	color: rgb(185, 171, 255);
+	color: var(--lornhorn);
 	transition: 1s;
 }
 
@@ -215,15 +232,7 @@ a {
 
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
 
-.project-header {
-	font-family: "Oleo Script Swash Caps", cursive;
-	text-align: center;
-	color: rgb(255, 255, 255);
-	font-size: 100px;
-	background-color: #292929;
-	box-shadow: 7px 5px #000000;
-	border-radius: 200px;
-}
+
 
 .parallax-effect {
 	transform-style: preserve-3d;

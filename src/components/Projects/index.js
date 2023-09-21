@@ -13,6 +13,12 @@ import AnimatedText from "react-animated-text-content";
 import Tilt from "react-parallax-tilt";
 import "./index.scss";
 
+import clouds from "../../assets/projects/clouds.png"
+import marvelous from "../../assets/projects/comic.jpg"
+import paper from "../../assets/projects/paper.jpg"
+import utsymbol from "../../assets/projects/utsymbol.png"
+
+
 const Projects = () => {
 	const [scale_main] = useState(1.05);
 	const [scale] = useState(1.05);
@@ -61,7 +67,7 @@ const Projects = () => {
 								<div
 									className="tilt-scale"
 									style={{
-										backgroundImage: `url("https://bryans-hosted.s3.amazonaws.com/marvel-comic-strip.png`,
+										backgroundImage: `url(${marvelous})`,
 									}}
 								>
 									<div className="header-main">
@@ -74,6 +80,7 @@ const Projects = () => {
 										rel="noreferrer noopener"
 									>
 										<Github size={100} className="github-marvel" />
+										<img className="utsymbol" src = {utsymbol} ></img>
 									</a>
 								</div>
 							</Tilt>
@@ -101,7 +108,7 @@ const Projects = () => {
 								<div
 									className="tilt-scale"
 									style={{
-										backgroundImage: `url("https://bryans-hosted.s3.amazonaws.com/clouds.jpeg")`,
+										backgroundImage: `url(${clouds})`,
 										backgroundSize: `cover`,
 									}}
 								>
@@ -114,6 +121,7 @@ const Projects = () => {
 										target="_blank"
 										rel="noreferrer noopener"
 									>
+										<img className="utsymbol" src = {utsymbol} ></img>
 										<Github size={70} className="github-weather" />
 									</a>
 								</div>
@@ -140,7 +148,7 @@ const Projects = () => {
 								<div
 									className="tilt-scale"
 									style={{
-										backgroundImage: `url("https://bryans-hosted.s3.amazonaws.com/paper.webp")`,
+										backgroundImage: `url(${paper})`,
 										backgroundSize: `cover`,
 									}}
 								>
@@ -154,6 +162,8 @@ const Projects = () => {
 										rel="noreferrer noopener"
 									>
 										<Github size={70} className="github-notewriter" />
+										<img className="utsymbol" src = {utsymbol} ></img>
+
 									</a>
 								</div>
 							</Tilt>
@@ -162,84 +172,6 @@ const Projects = () => {
 				</Col>
 			</Row>
 			<Row>
-				{/*team roster gen*/}
-				<Col lg={6} className="project-col">
-					<div className="tilt-outer">
-						<a
-							href="https://github.com/TheBryan-Acosta/Team-Roster-Generator"
-							target="_blank"
-							rel="noreferrer noopener"
-						>
-							<Tilt
-								className="parallax-effect"
-								scale={scale}
-								transitionSpeed={2500}
-								perspective={500}
-								tiltMaxAngleX={5}
-								tiltMaxAngleY={5}
-							>
-								<div
-									className="tilt-scale"
-									style={{
-										backgroundImage: `url("https://bryans-hosted.s3.amazonaws.com/peepschillin.png")`,
-										backgroundSize: `cover`,
-									}}
-								>
-									<div className="header">
-										<PeopleFill size={100} className="team-icon" />
-										<hr />
-									</div>
-									<a
-										href="https://github.com/TheBryan-Acosta/Team-Roster-Generator"
-										target="_blank"
-										rel="noreferrer noopener"
-									>
-										<Github size={70} className="github-team" />
-									</a>
-								</div>
-							</Tilt>
-						</a>
-					</div>
-				</Col>
-				{/*portfolio*/}
-				<Col className="project-col">
-					<div className="tilt-outer">
-						<a
-							href="https://bryanacosta.dev"
-							target="_blank"
-							rel="noreferrer noopener"
-						>
-							<Tilt
-								className="parallax-effect"
-								scale={scale}
-								transitionSpeed={2500}
-								perspective={500}
-								tiltMaxAngleX={5}
-								tiltMaxAngleY={5}
-							>
-								<div
-									className="tilt-scale"
-									style={{
-										backgroundImage: `url("https://bryans-hosted.s3.amazonaws.com/webb1st.jpeg")`,
-										backgroundSize: `cover`,
-									}}
-								>
-									<div className="header">
-										<MoonStarsFill size={100} className="moon-icon" />
-										<hr />
-									</div>
-									<a
-										href="https://github.com/TheBryan-Acosta/Bryan-React-Port"
-										target="_blank"
-										rel="noreferrer noopener"
-									>
-										<Github size={70} className="github-portfolio" />
-									</a>
-								</div>
-							</Tilt>
-						</a>
-					</div>
-				</Col>
 			</Row>
 		</Container>
 	);

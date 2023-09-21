@@ -1,14 +1,14 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./index.css";
-
+ import moon from "../../assets/projects/moon.png";
 const Quote = () => {
 	return (
 		<Container className="about-container">
 			<Row>
 				<Col>
 					<img
-						src="https://bryans-hosted.s3.amazonaws.com/imgbin_moon-solar-eclipse-luna-programme-lunar-eclipse-lunar-phase-png.png"
+						src={moon}
 						alt="Moon"
 						className="about-img"
 					></img>
