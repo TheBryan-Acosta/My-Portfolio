@@ -13,11 +13,10 @@ import AnimatedText from "react-animated-text-content";
 import Tilt from "react-parallax-tilt";
 import "./index.scss";
 
-import clouds from "../../assets/projects/clouds.png"
-import marvelous from "../../assets/projects/comic.jpg"
-import paper from "../../assets/projects/paper.jpg"
-import utsymbol from "../../assets/projects/utsymbol.png"
-
+import clouds from "../../assets/projects/clouds.png";
+import marvelous from "../../assets/projects/comic.jpg";
+import paper from "../../assets/projects/paper.jpg";
+import utsymbol from "../../assets/projects/utsymbol.png";
 
 const Projects = () => {
 	const [scale_main] = useState(1.05);
@@ -27,7 +26,7 @@ const Projects = () => {
 		<Container fluid className="project-container" id="projects">
 			<h1 className="project-header">
 				<AnimatedText
-					type="chars" // animate words or chars
+					type="words" // animate words or chars
 					animation={{
 						x: "200px",
 						y: "-20px",
@@ -80,7 +79,7 @@ const Projects = () => {
 										rel="noreferrer noopener"
 									>
 										<Github size={100} className="github-marvel" />
-										<img className="utsymbol" src = {utsymbol} ></img>
+										<img className="utsymbol" src={utsymbol}></img>
 									</a>
 								</div>
 							</Tilt>
@@ -121,7 +120,7 @@ const Projects = () => {
 										target="_blank"
 										rel="noreferrer noopener"
 									>
-										<img className="utsymbol" src = {utsymbol} ></img>
+										<img className="utsymbol" src={utsymbol}></img>
 										<Github size={70} className="github-weather" />
 									</a>
 								</div>
@@ -162,8 +161,7 @@ const Projects = () => {
 										rel="noreferrer noopener"
 									>
 										<Github size={70} className="github-notewriter" />
-										<img className="utsymbol" src = {utsymbol} ></img>
-
+										<img className="utsymbol" src={utsymbol}></img>
 									</a>
 								</div>
 							</Tilt>
@@ -171,8 +169,7 @@ const Projects = () => {
 					</div>
 				</Col>
 			</Row>
-			<Row>
-			</Row>
+			<Row></Row>
 		</Container>
 	);
 };

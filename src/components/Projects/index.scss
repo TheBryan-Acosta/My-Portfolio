@@ -2,6 +2,8 @@
 	--lornhorn: rgb(191, 87, 0);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
 .utsymbol {
 	height: 100px;
 	position: absolute;
@@ -20,13 +22,12 @@
 }
 
 .project-header {
-	font-family: "Oleo Script Swash Caps", cursive;
+	font-family: 'Major Mono Display', monospace;
 	text-align: center;
 	background-image: url('../../assets/projects/stars.jpg');
 	color: rgb(255, 255, 255);
 	font-size: 100px;
 	background-color: #292929;
-	border-radius: 200px;
 }
 
 .project-col {
@@ -41,7 +42,6 @@
 
 .particle-container {
 	position: relative;
-	border-radius: 200px;
 	background-color: #ffdcdc94;
 }
 
