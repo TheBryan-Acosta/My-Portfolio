@@ -6,16 +6,18 @@ const Quote = () => {
 	return (
 		<Container className="about-container">
 			<Row>
-				<Col>
+				<Col sm={12} lg={6}>
 					<img src={moon} alt="Moon" className="about-img"></img>
 				</Col>
-				<Col>
+				<Col sm={12} lg={6}>
+				<div className="textcontainer">
 					<p className="about-text">
-						The marble not yet carved can hold the form of every thought the
+						the marble not yet carved can hold the form of every thought the
 						greatest artist has.
 					</p>
 					<br />
 					<p className="about-text-name">-Michelangelo</p>
+					</div>
 				</Col>
 			</Row>
 		</Container>

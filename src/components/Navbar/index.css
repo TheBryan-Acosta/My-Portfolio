@@ -12,6 +12,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab:wght@300&display=swap");
 .fontwrap {
-	font-family: "Roboto Slab", serif;
+	font-family: 'Major Mono Display', monospace;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');

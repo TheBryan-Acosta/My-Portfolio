@@ -9,13 +9,13 @@ const Navigation = () => {
 		<div className="fontwrap">
 			<Navbar className="color-nav" expand="lg" variant="dark">
 				<Container fluid>
-					<Navbar.Brand href="#home">Bryan Acosta</Navbar.Brand>
+					<Navbar.Brand href="#home">bryan Acosta</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="ml-auto">
-							<Nav.Link href="#about">Home</Nav.Link>
-							<Nav.Link href="#projects">Projects</Nav.Link>
-							<Nav.Link href="#skills">Skills</Nav.Link>
+							<Nav.Link href="#about">home</Nav.Link>
+							<Nav.Link href="#projects">projects</Nav.Link>
+							<Nav.Link href="#skills">skills</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 					<Navbar.Collapse className="justify-content-end">

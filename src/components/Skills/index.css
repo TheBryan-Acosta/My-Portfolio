@@ -1,17 +1,19 @@
+.skills-component{
+  padding-bottom: 10px;
+}
 .skills-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 20px 50px;
-  margin-bottom: 25px;
   width: 88%;
   padding: 20px 60px 20px 60px;
   background: rgba(49, 49, 49, 0.623);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.356) 0%, rgba(0, 0, 0, 0.35) 100%);
-  border-radius: 7px;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 100%);
 }
 
 .skills-header{
+  
     font-family: 'Major Mono Display', monospace;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -22,10 +24,7 @@
 .skills-img{
   height: 100px;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  box-shadow: 7px 5px 5px #000000,
-  inset 3px 3px 3px 3px #ffffff00;
-  ;
+
   padding: 10px;
 
 }

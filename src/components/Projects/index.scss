@@ -17,17 +17,17 @@
 	padding: 20px 60px 20px 60px;
 	background-image: url('../../assets/projects/white-stone.jpg');
 	background-size: cover;
-	box-shadow: 7px 5px #000000;
-	border-radius: 7px;
+	box-shadow: 7px 5px #00000094;
 }
 
 .project-header {
 	font-family: 'Major Mono Display', monospace;
 	text-align: center;
-	background-image: url('../../assets/projects/stars.jpg');
+	background-color: rgba(0, 0, 0, 0.919);
+	
 	color: rgb(255, 255, 255);
 	font-size: 100px;
-	background-color: #292929;
+
 }
 
 .project-col {
@@ -108,7 +108,7 @@ a {
 	}
 
 	.github-marvel {
-		color: rgb(0, 0, 0);
+		color: rgb(251, 179, 120);
 		background-color: white;
 		border-radius: 100px;
 		padding: 10px;
@@ -124,7 +124,7 @@ a {
 	}
 
 	.github-weather {
-		color: rgb(138, 138, 138);
+		color: rgb(251, 179, 120);
 		background-color: white;
 		border-radius: 100px;
 		padding: 10px;
@@ -132,7 +132,6 @@ a {
 		right: 5%;
 		bottom: 10%;
 		transition: 0.3s;
-	border: 2px solid rgb(0, 0, 0);
 		transform: translateZ(30px);
 	}
 
@@ -142,7 +141,7 @@ a {
 }
 
 .github-notewriter {
-	color: rgb(138, 138, 138);
+	color: rgb(251, 179, 120);
 	background-color: white;
 	border-radius: 100px;
 	padding: 10px;
@@ -150,7 +149,7 @@ a {
 	right: 5%;
 	bottom: 10%;
 	transition: 0.3s;
-	border: 2px solid rgb(0, 0, 0);
+	
 	transform: translateZ(30px);
 }
 
@@ -198,8 +197,7 @@ a {
 .logo {
 	font-family: GraublauWeb;
 	color: white;
-	background-color: rgb(0, 0, 0);
-	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.816);
 	padding: 5px 5px 0px 5px;
 	transition: 0.3s;
 }
