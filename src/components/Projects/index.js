@@ -15,7 +15,7 @@ import "./index.scss";
 
 import clouds from "../../assets/projects/clouds.png";
 import marvelous from "../../assets/projects/comic.jpg";
-import paper from "../../assets/projects/paper.jpg";
+import pokemon from "../../assets/projects/pokemon.jpeg";
 import utsymbol from "../../assets/projects/utsymbol.png";
 
 const Projects = () => {
@@ -47,11 +47,11 @@ const Projects = () => {
 			</h1>
 
 			<Row>
-				{/*Marvelous*/}
+				{/*Pokemon*/}
 				<Col className="project-col-main">
 					<div className="tilt-outer">
 						<a
-							href="https://marveloushero.herokuapp.com/"
+							href="https://thebryan-acosta.github.io/Web-Playground/"
 							target="_blank"
 							rel="noreferrer noopener"
 						>
@@ -66,20 +66,21 @@ const Projects = () => {
 								<div
 									className="tilt-scale"
 									style={{
-										backgroundImage: `url(${marvelous})`,
+										backgroundImage: `url(${pokemon})`,
+										backgroundSize: "cover",
+										backgroundRepeat: "no-repeat",
 									}}
 								>
 									<div className="header-main">
-										<div className="logo">MARVELOUS</div>
+										<p className="logo-pokemon">Pokemon!</p>
 										<hr />
 									</div>
 									<a
-										href="https://github.com/TheBryan-Acosta/marvelous"
+										href="https://github.com/TheBryan-Acosta/Web-Playground"
 										target="_blank"
 										rel="noreferrer noopener"
 									>
-										<Github size={100} className="github-marvel" />
-										<img className="utsymbol" src={utsymbol}></img>
+										<Github size={100} className="github-pokemon" />
 									</a>
 								</div>
 							</Tilt>
@@ -128,39 +129,38 @@ const Projects = () => {
 						</a>
 					</div>
 				</Col>
-				{/*Note taker*/}
-				<Col className="project-col">
+				{/*Marvelous*/}
+				<Col lg={6} className="project-col-main">
 					<div className="tilt-outer">
 						<a
-							href="https://note-writer-brydev.herokuapp.com/"
+							href="https://marveloushero.herokuapp.com/"
 							target="_blank"
 							rel="noreferrer noopener"
 						>
 							<Tilt
 								className="parallax-effect"
-								scale={scale}
+								scale={scale_main}
 								transitionSpeed={2500}
 								perspective={500}
-								tiltMaxAngleX={5}
-								tiltMaxAngleY={5}
+								tiltMaxAngleX={2}
+								tiltMaxAngleY={2}
 							>
 								<div
 									className="tilt-scale"
 									style={{
-										backgroundImage: `url(${paper})`,
-										backgroundSize: `cover`,
+										backgroundImage: `url(${marvelous})`,
 									}}
 								>
-									<div className="header">
-										<PencilSquare size={100} className="paper-icon" />
+									<div className="header-main">
+										<div className="logo">MARVELOUS</div>
 										<hr />
 									</div>
 									<a
-										href="https://github.com/TheBryan-Acosta/Note-Writer"
+										href="https://github.com/TheBryan-Acosta/marvelous"
 										target="_blank"
 										rel="noreferrer noopener"
 									>
-										<Github size={70} className="github-notewriter" />
+										<Github size={100} className="github-marvel" />
 										<img className="utsymbol" src={utsymbol}></img>
 									</a>
 								</div>

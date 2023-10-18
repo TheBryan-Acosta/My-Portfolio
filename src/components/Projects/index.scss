@@ -123,6 +123,22 @@ a {
 		color: var(--lornhorn);
 	}
 
+		.github-pokemon {
+			color: rgb(196, 255, 172);
+			background-color: white;
+			border-radius: 100px;
+			padding: 10px;
+			position: absolute;
+			right: 5%;
+			bottom: 10%;
+			transition: 0.3s;
+			transform: translateZ(30px);
+		}
+	
+		.github-pokemon:hover {
+			color: rgb(231, 255, 221);
+		}
+
 	.github-weather {
 		color: rgb(251, 179, 120);
 		background-color: white;
@@ -202,6 +218,20 @@ a {
 	transition: 0.3s;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.logo-pokemon {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 95%;
+	color: rgb(255, 255, 255);
+	background-image: url('../../assets/projects/grass.png');
+	background-size: cover;
+	filter: grayscale(.5);
+		padding: 10px 10px 5px 10px;
+		border-radius: 10px;
+	transition: 0.3s;
+}
+
 .cloud-icon {
 	color: rgb(255, 255, 255);
 	transition: 0.3s;
@@ -224,7 +254,7 @@ a {
 
 @font-face {
 	font-family: GraublauWeb;
-	src: url("../../assets/images/BentonSans\ Comp\ Black\ Regular.otf")
+	src: url("../../assets/fonts/BentonSans\ Comp\ Black\ Regular.otf")
 		format("opentype");
 }
 
